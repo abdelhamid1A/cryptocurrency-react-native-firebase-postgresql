@@ -1,42 +1,44 @@
 # cryptocurrency-react-native-firebase-postgresql
-inside the server folder add folder config/config.json </br>
-content in config : </br>
-{</br>
-  "development": {</br>
-    "username": "postgres",</br>
-    "password": "password",</br>
-    "database": "cryptoDB",</br>
-    "host": "127.0.0.1",</br>
-    "port": 5432,</br>
-    "dialect": "postgres"</br>
-  },</br>
-  "test": {</br>
-    "username": "root",</br>
-    "password": null,</br>
-    "database": "database_test",</br>
-    "host": "127.0.0.1",</br>
-    "port": 5432,</br>
-    "dialect": "mysql"</br>
-  },</br>
-  "production": {</br>
-    "username": "username",</br>
-    "password": "password",</br>
-    "database": "database",</br>
-    "host": "host",</br>
-    "port": 5432,</br>
-    "dialect": "postgres",</br>
-    "ssl": true,</br>
-    "protocol": "postgres",</br>
+inside the server folder add folder config/config.json 
+content in config : 
+```json
+{
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "database": "cryptoDB",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "username",
+    "password": "password",
+    "database": "database",
+    "host": "host",
+    "port": 5432,
+    "dialect": "postgres",
+    "ssl": true,
+    "protocol": "postgres",
 
-    "logging": true, </br>
-    "dialectOptions": { </br>
-        "ssl": {</br>
-            "require": true,</br>
-            "rejectUnauthorized": false </br>
-        }</br>
-    }</br>
-  }</br>
-}</br>
+    "logging": true, 
+    "dialectOptions": { 
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false 
+        }
+    }
+  }
+}
+```
 the first part "development" is very important that for local database </br>
 the last one is optional you don't need to change anything just copy it </br>
 creat a .env in server </br>
