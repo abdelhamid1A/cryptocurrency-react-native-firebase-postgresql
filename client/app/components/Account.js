@@ -37,8 +37,8 @@ export default function Account(props) {
 
         getUser()
     }, [])
-    console.log(user);
-    console.log(wallets);
+    // console.log(user);
+    // console.log(wallets);
     return (
         <View style={styles.container}>
             <BackButton
