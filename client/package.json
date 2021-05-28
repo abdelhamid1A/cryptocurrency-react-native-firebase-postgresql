@@ -1,0 +1,39 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.0",
+    "@react-native-community/picker": "^1.8.1",
+    "axios": "^0.21.1",
+    "expo": "~41.0.1",
+    "expo-constants": "^10.1.3",
+    "expo-secure-store": "~10.1.0",
+    "expo-status-bar": "~1.0.4",
+    "firebase": "^8.6.1",
+    "formik": "^2.2.6",
+    "fs": "0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-chart-kit": "^6.11.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.4",
+    "react-native-keyboard-aware-view": "0.0.14",
+    "react-native-router-flux": "^4.3.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "~0.13.12",
+    "react-router-native": "^5.2.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "react-native-dotenv": "^2.5.5"
+  },
+  "private": true
+}
